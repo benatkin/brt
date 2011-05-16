@@ -1,0 +1,33 @@
+{
+  "name": "brt",
+  "version": "0.0.1",
+  "description": "Browser Tools: command-line tools for browsers",
+  "keywords": [
+    "command-line",
+    "browsers",
+    "browser extensions",
+    "utilities"
+  ],
+  "maintainers": [
+    {
+      "name": "Ben Atkin",
+      "email": "ben@benatkin.com",
+      "web": "http://benatkin.com/" 
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php" 
+    }
+  ],
+  "main": "./lib/brt",
+  "bin": {
+    "brt" : "./lib/cli.js"
+  },
+  "dependencies" : {
+    "optimist" : ">=0.1.6",
+    "seq" : ">=0.2.5",
+    "underscore" : ">=1.1.6"
+  }
+}
